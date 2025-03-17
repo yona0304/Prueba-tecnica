@@ -26,9 +26,9 @@ Para el desarrollo de esta prueba, se utilizaron las siguientes herramientas y t
     - git clone https://github.com/yona0304/Prueba-tecnica.git
     - cd Prueba-tecnica
 
-2. Instalar las dependencias de Laravel (si es necesario):
+2. Instalar las dependencias de Laravel:
     - composer install
-    - nom install
+    - npm install
 
 3. Iniciar el servidor de desarrollo:
     - npm run dev (correr estilos tailwind).
