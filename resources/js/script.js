@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const bodylogin = document.getElementById("app");
     const logoutBtn = document.getElementById("logout-btn");
     const welcome = document.getElementById("welcome");
+    const showModalButton = document.getElementById('mostrar');
 
     // Verificar si el usuario ya está autenticado
     const user = localStorage.getItem("user");
@@ -42,6 +43,13 @@ document.addEventListener("DOMContentLoaded", () => {
             localStorage.setItem("user", email);
             showWelcome(email);
         }, 1500);
+    });
+
+    document.getElementById('ver').addEventListener('change', function (e) {
+        const passwordFields = document.querySelectorAll('input[type="password"], input[type="text"]');
+        passwordFields.forEach(field => {
+            field.type = e.target.checked ? 'text' : 'password';
+        });
     });
 
     logoutBtn.addEventListener("click", () => {
