@@ -50,7 +50,7 @@
                             <input type="email" id="email" name="email" placeholder="example@example.com"
                                 autocomplete="off"
                                 class="w-full mt-1 px-4 py-2 border rounded-lg focus:ring focus:ring-indigo-300"
-                                required>
+                                >
                         </div>
 
                         <div class="mt-4">

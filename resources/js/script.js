@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const bodylogin = document.getElementById("app");
     const logoutBtn = document.getElementById("logout-btn");
     const welcome = document.getElementById("welcome");
-    const showModalButton = document.getElementById('mostrar');
 
     // Verificar si el usuario ya está autenticado
     const user = localStorage.getItem("user");
